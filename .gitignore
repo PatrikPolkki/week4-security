@@ -2,6 +2,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,webstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,webstorm
 
+ssl-cert.pem
+ssl-key.pem
+certrequest.csr
+
 ### Node ###
 # Logs
 logs
@@ -252,7 +256,3 @@ fabric.properties
 .idea/codestream.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/node,webstorm
-
-./ssl-key.pem
-./ssl-cert.pem
-./certrequest.csr
