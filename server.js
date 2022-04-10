@@ -25,9 +25,7 @@ const port = process.env.HTTP_PORT || 3000;
         });
 
     const app = express();
-
-    app.use(helmet());
-
+    
     // allow Apollo Graphql API usage if is in development mode
     const isDevelopment = process.env.NODE_ENV === 'development';
     app.use(
