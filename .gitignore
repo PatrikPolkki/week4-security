@@ -253,6 +253,6 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/node,webstorm
 
-certrequest.csr
-ssl-cert.pem
-ssl-key.pem
+./ssl-key.pem
+./ssl-cert.pem
+./certrequest.csr
